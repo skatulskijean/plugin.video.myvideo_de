@@ -30,7 +30,7 @@ STRINGS = {
     'set_now?': 30031
 }
 
-plugin = Plugin()
+plugin = Plugin(addon_id='plugin.video.myvideo_de')
 
 
 @plugin.route('/')
