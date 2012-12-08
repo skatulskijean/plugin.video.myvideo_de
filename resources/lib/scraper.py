@@ -17,7 +17,7 @@
 #    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-import hashlib
+from md5 import md5 as md5
 import re
 from base64 import b64decode
 from BeautifulSoup import BeautifulSoup
