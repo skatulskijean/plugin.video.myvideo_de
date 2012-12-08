@@ -626,7 +626,7 @@ def __rc4crypt(data, key):
 
 
 def __md5(s):
-    return hashlib.md5(s).hexdigest()
+    return md5(s).hexdigest()
 
 
 def __log(msg):
